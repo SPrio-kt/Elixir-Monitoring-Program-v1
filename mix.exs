@@ -42,7 +42,10 @@ defmodule ElixirMonitoringProm.MixProject do
       {:phoenix_live_reload, "~> 1.2", only: :dev},
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
-      {:plug_cowboy, "~> 2.0"}
+      {:plug_cowboy, "~> 2.0"},
+      {:geo, "~> 3.1.0"},
+      {:geo_postgis, "~> 3.1.0"},
+      {:faker, "~> 0.12.0"}
     ]
   end
 
