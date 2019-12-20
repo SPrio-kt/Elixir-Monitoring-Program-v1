@@ -39,8 +39,8 @@ services:
     volumes:
       - grafana-data:/var/lib/grafana
       - ./docker/grafana/:/etc/grafana/provisioning/
-    # env_file:
-    #   - ./docker/grafana/.env
+    env_file:
+      - ./docker/grafana/.env
 
   prometheus:
     image: prom/prometheus:v2.11.2
